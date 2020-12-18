@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,57 @@
   to {
     transform: rotate(360deg);
   }
+}
+.search-container {
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+}
+.container {
+  /* background-color: green; */
+  width: 80%;
+  margin: 0 auto;
+}
+.top-container{
+
+}
+.icon-span{
+  width: 40px;
+  height: 30px;
+  background-color: #051C33;
+  border: none;
+  color: white;
+}
+.searchbox{
+  height: 28px;
+  width: 400px;
+  border: 1px solid #051C33;
+  padding: 0px 10px;
+}
+.body-part{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  flex-direction: row;
+}
+.image-div{
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+.image{
+  width: 100%;
+}
+.filter-buttons{
+/* background-color: grey; */
+padding: 10px 0px;
+}
+.filter-buttons button{
+  margin: 0px 10px;
+  min-width: 80px;
+  background-color: #051C33;
+  color: white;
+  border: none;
+  height: 20px;
 }

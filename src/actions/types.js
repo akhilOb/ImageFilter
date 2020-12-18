@@ -1,0 +1,3 @@
+
+export const SET_DATA_FROM_JSON = "SET_DATA_FROM_JSON";
+export const SET_FILTERD_DATA = "SET_FILTERD_DATA";
